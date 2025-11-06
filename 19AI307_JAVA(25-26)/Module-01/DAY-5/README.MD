@@ -1,6 +1,6 @@
 # Ex.No:1(E) STRINGS AND MATH FUNCTION
 
-##QUESTION:
+## QUESTION:
 
 
 ## AIM:
@@ -37,3 +37,4 @@ RegisterNumber:
 
 
 ## RESULT:
+
