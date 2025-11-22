@@ -41,7 +41,7 @@ RegisterNumber: 212222040019
 ```
 
 ## Sourcecode.java:
-
+```
 import java.util.Scanner;
 
 public class AccessCheck {
@@ -55,7 +55,7 @@ public class AccessCheck {
     }
 }
 
-
+```
 
 
 
@@ -68,4 +68,5 @@ public class AccessCheck {
 
 
 ## RESULT:
+The Java Program to evaluate the above conditions using logical operators was implemented successfully and verified.
 
