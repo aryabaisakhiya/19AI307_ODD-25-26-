@@ -10,10 +10,10 @@ To write a Java program to  create a class Triangle and initialiaze the attribut
 ## ALGORITHM :
 ```
 1. Start
-2. Create a class named **Triangle**
-3. Declare attributes **base** and **height**
-4. Use a **default constructor** to initialize base and height with fixed values
-5. Calculate area using `area = 0.5 * base * height` and display it, then end
+2. Create a class named Triangle
+3. Declare attributes base and height
+4. Use a default constructor to initialize base and height with fixed values
+5. Calculate area using area = 0.5 * base * height and display it, then end
 ```
 
 ## PROGRAM:
@@ -58,5 +58,6 @@ class prog {
 
 ## RESULT:
 The program was implemented successfully and verified.
+
 
 
