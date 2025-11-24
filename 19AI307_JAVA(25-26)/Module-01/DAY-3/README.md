@@ -15,11 +15,13 @@ Write a Java program that prompts the user to enter a non-negative integer and t
 To create a Java program that prompts the user to enter a non-negative integer and then calculates and displays the factorial of the given number.
 
 ## ALGORITHM :
+```
 1.Start
 2.Read a non-negative integer n
 3.Initialize fact = 1
 4.Loop from 1 to n and multiply each value with fact
 5.Display the factorial and end
+```
 
 ## PROGRAM:
  ```
@@ -56,4 +58,5 @@ public class Main {
 
 ## RESULT:
 The program was implemented successfully and verified.
+
 
