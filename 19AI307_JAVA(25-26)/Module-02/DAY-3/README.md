@@ -10,8 +10,8 @@ To write a Java program to  create a class called BankAccount with private insta
 ## ALGORITHM :
 ```
 1. Start
-2. Create a class named **BankAccount**
-3. Declare **private** instance variables: **accountNumber** and **balance**
+2. Create a class named BankAccount
+3. Declare private instance variables: accountNumber and balance
 4. Write a constructor to initialize these variables
 5. Provide public methods (getters/setters or deposit/withdraw) to access and modify the balance, then end
 ```
@@ -76,5 +76,6 @@ public class prog {
 
 ## RESULT:
 The program was implemented successfully and verified.
+
 
 
