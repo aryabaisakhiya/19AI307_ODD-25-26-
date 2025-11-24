@@ -1,72 +1,58 @@
-# Ex.No:1(A) INTRODUCTION TO JAVA PROGRAMMING, DATA TYPES, VARIABLES AND OPERATORS
+# Ex.No:5(A) INPUTSTREAMREADER 
 
 ## QUESTION:
-Lovely wants to enter a secure tech conference. The security system checks certain conditions to grant access. These conditions are:
-
-She must be registered (true/false).
-
-She must have a valid ID (true/false).
-
-She must NOT be blacklisted (true/false).
-
-The system uses logical operators to evaluate her access eligibility:
-
-If she is registered AND has a valid ID, and NOT blacklisted, she is granted access.
-
-Otherwise, access is denied.
-
-Your task is to evaluate these conditions using logical operators and print whether access is granted or denied.
-
+Write a Java program to write characters to a file using FileWriter.
 
 ## AIM:
-Write a Java program to evaluate the above conditions using logical operators and print whether access is granted or denied.
-
+To write a Java program that writes character data into a text file using the FileWriter class.
 
 ## ALGORITHM :
-1. Start the program and create a Scanner object.
-2. Read the three boolean inputs.
-3. Evaluate the condition: registered AND valid ID AND NOT blacklisted.
-4. Store the result in `accessGranted`.
-5. Print whether access is granted.
-
-
+1.	Start the program.
+2.	Import the necessary package 'java.util'
+3.	Create a FileWriter object and specify the filename.
+4. Write characters to the file using the write() method.
+5. Close the FileWriter to save the data.
+6. End the program.
 
 ## PROGRAM:
  ```
-/*
-Program to implement variables and Operators using Java
+Program to implement a InputStreamReader using Java
 Developed by: Arya Baisakhiya
-RegisterNumber: 212222040019 
-*/
+Register Number: 212222040019
 ```
 
-## Sourcecode.java:
+## SOURCE CODE:
 ```
+import java.io.*;
 import java.util.Scanner;
-
-public class AccessCheck {
+public class FileWriterExampleUserInput {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        boolean isRegistered = sc.nextBoolean();
-        boolean hasValidID = sc.nextBoolean();
-        boolean isBlacklisted = sc.nextBoolean();
-        boolean accessGranted = (isRegistered && hasValidID && !isBlacklisted);
-        System.out.println("Access Granted: " + accessGranted);
+        try {
+            String fileName = sc.nextLine();
+            String content = sc.nextLine();
+            FileWriter fw = new FileWriter(fileName);
+            fw.write(content);
+            fw.close();
+            System.out.println("File written successfully.");
+        }
+        catch (IOException e) {
+            System.out.println("Error writing to file: " + e.getMessage());
+        }
+        finally {
+            sc.close();
+        }
     }
 }
-
 ```
 
-
-
-
-
-
 ## OUTPUT:
-<img width="575" height="297" alt="image" src="https://github.com/user-attachments/assets/becb2064-0c18-41d0-9a22-131fbe16ca57" />
-
+<img width="762" height="311" alt="image" src="https://github.com/user-attachments/assets/ecd16df4-219c-433b-9992-995f741b0f0d" />
 
 
 ## RESULT:
-The Java Program to evaluate the above conditions using logical operators was implemented successfully and verified.
+The program was implemented successfully and verified.
+
+
+
 
