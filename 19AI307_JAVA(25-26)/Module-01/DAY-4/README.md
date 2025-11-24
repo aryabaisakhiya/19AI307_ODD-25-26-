@@ -50,6 +50,3 @@ The program was implemented successfully and verified.
 
 
 
-
-## RESULT:
-
